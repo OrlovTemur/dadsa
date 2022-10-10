@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',sans-serif;
+    color: rgb(0, 123, 12);
+}
+
+.enchponchmak {
+    width: 300px;
+    height: 100px;
+    margin: 50px auto;
+    display: block;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid rgb(0, 123, 12);
+    font-size: 26px;
+}
+
+body {
+    background-color: black;
+
+}
+
+.container{
+    padding: 50px;
+    width: 830px;
+}
+
+form {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input{
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid rgb(0, 123, 12);
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    padding: 10px;
+}
+
+form button{
+    background-color: rgb(0, 123, 12);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 28px;
+}
+
+form p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box_header{
+    color: #8E9AA7;
+}
+.box_flex{
+    height: 40px;    
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE7EF;
+}
+
+img{
+    width: 20px;
+    
+    height: 20px;
+}
+
+.edit_inp{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 123, 12);
+    left: 235px;
+    height: 25px;
+    outline: none;
+    width: 80px;
+    opacity: 0;
+    display: none;
+    transition: 200ms ease;
+}
+.edit_age{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 123, 12);
+    left: 490px;
+    height: 25px;
+    outline: none;
+    width: 80px;
+    opacity: 0;
+    transition: 200ms ease;
+    display: none;
+}
+.save_btn{
+    position: absolute;
+    left: 720px;
+    background-color: rgb(0, 123, 12);
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    color: white;
+    opacity: 0;
+    transition: 200ms ease;
+    display: none;
+}
+
+.st_year{
+    transition: 200ms ease;
+}
+
+
+
+.block{
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 123, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.block p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.block img {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    width: fit-content;
+    padding: 50px;
+    border-left: 3px solid rgb(0, 123, 12);
+    border-right: 3px solid rgb(0, 123, 12);
+}
+
+.box {
+    display: flex;
+    gap: 50px;
+}
